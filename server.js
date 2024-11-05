@@ -76,4 +76,6 @@ app.get('/v1/models', async (_, res) => {
 });
                 
 
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+app.listen(5000, '0.0.0.0', () => {
+    console.log("Server is running on port 5000");
+});
